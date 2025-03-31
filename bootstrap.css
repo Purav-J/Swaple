@@ -994,7 +994,27 @@ pre code {
     margin-left: 91.666667%;
   }
 }
+.whatsapp-icon {
+      position: fixed;
+      bottom: 20px; /* 20px from the bottom of the page */
+      right: 20px;  /* 20px from the right side of the page */
+      z-index: 1000; /* Ensure it stays on top of other content */
+      background-color: #25d366; /* WhatsApp green background */
+      border-radius: 50%; /* Round the icon */
+      padding: 10px; /* Space around the icon */
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+    }
 
+    .whatsapp-icon img {
+      width: 50px; /* Adjust the size as per your design */
+      height: 50px;
+    }
+
+    /* Optional: Hover effect */
+    .whatsapp-icon:hover {
+      background-color: #128C7E; /* Darker green when hovered */
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+    }
 @media (min-width: 768px) {
   .col-md {
     -ms-flex-preferred-size: 0;
