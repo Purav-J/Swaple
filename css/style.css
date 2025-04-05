@@ -1,7 +1,12 @@
 body {
-  font-family: "Poppins", sans-serif;
+  cursor: url(../images/cursor.png), auto;
+  font-family: "Poppins",
+  sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+}
+button:hover, a:hover {
+  cursor: url('../images/hover.png'), auto; /* Hover cursor */
 }
 
 .layout_padding {
@@ -821,7 +826,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin: 45px 20px 0 20px;
+  margin: 40px 20px 0 20px;
 }
 
 .food_section .food_container .box .img-box img {
