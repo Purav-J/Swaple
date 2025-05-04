@@ -830,6 +830,7 @@ a:focus {
 }
 
 .food_section .food_container .box .img-box img {
+  border-radius: 15px;
   max-width: 100%;
 }
 
@@ -1128,3 +1129,17 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+.navbar{}
+
+.navbar-brand{
+  width: 150px;
+  height: auto;
+}
+.navbar-brand img{
+  width: 100%;
+  height: auto;
+}
+.order-now{
+  color: #e7d619;
+}
