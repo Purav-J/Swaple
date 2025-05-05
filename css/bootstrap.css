@@ -67,6 +67,30 @@ body {
   outline: 0 !important;
 }
 
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 99;
+  width: 55px;
+  height: 55px;
+  border: none;
+  outline: none;
+  background-color: #FFD700; /* Yellow background */
+  cursor: pointer;
+  border-radius: 50%; /* Round shape */
+  padding: 5px; /* Adds space around the image */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+#backToTopBtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
