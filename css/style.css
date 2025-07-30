@@ -1,5 +1,5 @@
 body {
-  cursor: url(../images/cursor.png), auto;
+  cursor: url(../images/cursor.cur), auto;
   font-family: "Poppins",
   sans-serif;
   color: #0c0c0c;
@@ -1019,7 +1019,8 @@ a:focus {
   background-color: #0a2050;
   color: #ffffff;
   padding: 40px 0 75px 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
 }
 
 .info_section .row > div {
